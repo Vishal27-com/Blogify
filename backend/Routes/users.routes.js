@@ -1,5 +1,5 @@
 const express =require("express")
-const { getUser, getAllUser, updateUser, deleteUser } = require("../Controller/user.controller")
+const { getUser, getAllUser, updateUser, deleteUser, updateFollower, updateUnFollower } = require("../Controller/user.controller")
 const app=express.Router()
 
 // get one user 
